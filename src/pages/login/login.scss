@@ -1,0 +1,70 @@
+.login {
+  background-color: powderblue;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  .card {
+    background-color: white;
+    display: flex;
+    width: 50%;
+    border-radius: 5px;
+    min-height: 400px;
+    .left {
+      flex: 1;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-self: center;
+      gap: 30px;
+      h1 {
+        font-weight: bold;
+        font-size: 60px;
+      }
+      p {
+        font-size: 12px;
+      }
+      span {
+        font-size: 12px;
+      }
+      button {
+        border: none;
+        padding: 10px;
+        width: 50%;
+        cursor: pointer;
+        font-weight: bold;
+      }
+    }
+    .right {
+      display: flex;
+      flex-direction: column;
+      padding: 50px;
+      flex: 1;
+      .formContainer {
+        height: 100%;
+        display: flex;
+        form {
+          display: flex;
+          width: 100%;
+          flex-direction: column;
+          align-self: center;
+          gap: 30px;
+          input {
+            border: none;
+            border-bottom: 1px solid lightgray;
+          }
+          button {
+            width: 40%;
+            background-color: powderblue;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}
